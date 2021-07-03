@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+
+a, p,h1,h2,h3,h4,h5,h6 {
+    color: rgb(87, 85, 85);
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    padding-bottom: 10px;
+}
+.container {
+    max-width: 80%;
+    margin: auto;
+    border-left: 1px solid rgb(87, 85, 85);
+    border-right: 1px solid rgb(87, 85, 85);
+    background-color: rgb(87, 85, 85);
+}
+
+.game-options {
+    width: 500px;
+    margin: 0 auto;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+
+header {
+    background-color: rgb(87, 85, 85);
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+header nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+header nav a:hover, footer a:hover {
+    color: cyan;
+}
+
+main {
+    /* background-color: yellow; */
+    width: 700px;
+    height: 800px;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'Reggae One', cursive;
+    background-color: rgb(87, 85, 85);
+}
+
+.game-container{
+    width: 500px;
+    height: 730px;
+    position: relative;
+}
+
+.border-left {
+    width: 80px;
+    height: 790px;
+    background-color: rgb(87, 85, 85);
+    z-index: +2;
+}
+.border-right {
+    width: 80px;
+    height: 790px;
+    background-color: rgb(87, 85, 85);
+    z-index: +2;
+    left: 580px;
+}
+.border-top {
+    width: 660px;
+    height: 50px;
+    position: relative;
+    background-color: rgb(87, 85, 85);
+    z-index: +3;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.border-top h1 {
+    color: white;
+}
+.sky{
+    background-image: url('images/fb-game-background-real.png');
+    width: 500px;
+    height: 580px;
+    position: absolute;
+}
+
+.ground{
+    background-image: url('images/bottom-background-real.png');
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 580px;
+    z-index: +1;
+}
+
+#bird{
+    background-image: url('images/flappy-head.png');
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    z-index: 3;
+    visibility: hidden;
+}
+
+.obstacle{
+    background-image: url('images/flappybird-pipe.png');
+    width: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: absolute;
+}
+
+.topObstacle{
+    background-image: url('images/flappybird-pipe.png');
+    transform: rotate(180deg);
+    width: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: absolute;
+}
+
+.noticeBoard {
+    background-color: #eebc50;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    z-index: 3;
+
+    top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.score-count {
+    border-radius: 5px;
+    background-color: #eebc50;
+    opacity: 0.8;
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 4;
+
+    top:80px;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+    visibility: hidden;
+}
+ .sources {
+    /* max-width: 80%; */
+    /* margin: auto; */
+    /* border: 1px solid #c8c8c8; */
+    font-size:x-small;
+    padding: 0 20px;
+ }
+
+ footer {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(87, 85, 85);
+    /* text-align: center; */
+}
+footer a {
+    padding: 0px 1px 0px 1px;
+}
+footer a, footer p, footer ul, footer li {
+    color: white;
+}
+
+

@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* a, p,h1,h2,h3,h4,h5,h6 {
+    color: rgb(87, 85, 85);
+
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    padding-bottom: 10px;
+} */
+.container {
+    max-width: 80%;
+    margin: auto;
+    border-left: 1px solid rgb(87, 85, 85);
+    border-right: 1px solid rgb(87, 85, 85);
+}
+
+header {
+    background-color: rgb(87, 85, 85);
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+header nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+header nav a:hover, footer a:hover {
+    color: cyan;
+}
+
+section, aside{
+    padding: 20px;
+}
+
+.intro {
+    background-image: url(/images/dtban1024.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.intro-text h2, .intro-text p {
+    color: white;
+}
+.intro-text {
+    text-align: center;
+
+    width: 300px;
+    padding: 10px;
+    background-color: #607e8b;
+    opacity: 0.6;
+    border-radius: 25px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+main {
+    float: left;
+    width: 80%;
+}
+main p, intro p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+aside {
+    float: right;
+    width: 20%;
+}
+aside p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+aside ul {
+    padding: 0;
+}
+aside ul li {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    list-style: none;
+}
+
+/* footer {
+    background-color: rgb(87, 85, 85);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    padding: 0px 1px 0px 1px;
+}
+footer a, footer p, footer ul, footer li {
+    color: white;
+} */
+
+footer {
+    background-color: rgb(87, 85, 85);
+    display: inline-block;
+    width: 100%;
+}
+footer p{
+    padding: 10px;
+}
+
+.life-boat {
+    position: relative;
+    padding-top: 10px;
+}
+.life {
+    padding: 10px 0;
+    min-width: 500px;
+    border-radius: 25px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,161,1) 100%);
+}
+#life-btn {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(253,187,45,1) 100%);
+    position: relative;
+    left: 10%;
+    width: 160px;
+}
+
+about{
+    display: block;
+    padding-left: 20px;;
+}
+
+
+
+
+@media (max-width: 768px) {
+    main, aside {
+        float: none;
+        width: 100%;
+    }
+    aside {
+        padding: 20px;
+    }
+    .intro {
+        background-image: url("/images/dtban768.png");
+    }
+    .introText {
+        margin: 0;
+        padding: 0px 20px 0px 20px;
+    }
+    .introText p {
+        color: rgb(87, 85, 85);
+    }
+}
+@media (max-width: 400px) {
+    .intro {
+        background-image: url("/images/dtban400.png");
+    }
+}
+
+

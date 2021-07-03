@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Birds(ish)!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="/index.html">HOME</a>
+                <a href="/about.html">ABOUT</a>
+                <a href="../ania.html">ANIA</a>
+                <a href="https://www.youtube.com/c/AniaKub%C3%B3w/" target="_blank">ANIA KUB&OacuteW On YouTube</a>
+            </nav>
+        </header>
+
+        <div class="game-options">
+            <button type="button" onclick="toggleSound()" class="sound-button">Sound is on!</button>
+        </div>
+        <div class="border-top">
+            <h1>FLAPPY BIRDS(ish)!</h1>
+        </div>
+        <main>
+            <div class="border-left"></div>
+            <div class="game-container">
+                <div class="sky">
+                    <div id="bird"></div>
+                    <div class="score-count"></div>
+                    <div class="noticeBoard">
+                        <div class="noticeText">--------------<br>Press the UP arrow to start the game and to
+                            fly!<br>--------------</div>
+                    </div>
+                </div>
+                <div class="ground"></div>
+            </div>
+            <div class="border-right"></div>
+        </main>
+    </div>
+
+</body>
+
+<footer>
+    <div class="sources">
+        <p>Sound source credits:</p>
+        <p>Music: Monkeys Spinning Monkeys Kevin MacLeod (incompetech.com):Licensed under Creative Commons: By
+            Attribution 3.0 License:http://creativecommons.org/licenses/by/3.0/:Music promoted by
+            https://www.chosic.com/</p>
+        <p>Collision: salamisound.com</p>
+    </div>
+    <p style="padding: 20px;">&copy; DarrenTiley 2021</p>
+</footer>
+
+<script src="app.js" charset="utf-8"></script>
+
+</html>

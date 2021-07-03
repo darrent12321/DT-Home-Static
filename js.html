@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="js.css">
+    <link rel="stylesheet" href="fader.css">
+    <link rel="stylesheet" href="life.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="../index.html">HOME</a>
+                <a href="../about.html">ABOUT</a>
+                <a href="https://www.youtube.com/c/AniaKub%C3%B3w/" target="_blank">ANIA KUB&OacuteW On YouTube</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h3>Javascript</h3>
+                <p>Well compared to CSS, Javascript is much more intuitive! Read through the basic <a
+                    href="https://www.w3schools.com/js/default.asp" target="_blank">w3schools.com</a> tutorials
+                    first then went onto Ania Kub&oacutews <a href="https://www.youtube.com/c/AniaKub%C3%B3w/"
+                    target="_blank">YouTube</a> channel to go through a few of the Javascript tutorials. I followed
+                    along and built a few of the games, with the intention of adding a few bits of my own to them. This
+                    led me to a deeper investigation of Javascript timers and the DOM and then further wrestling with
+                    CSS! <br>For my Javascript efforts see <a href="js.html">here</a>. I only had time to style
+                    the <a href="Ania/Flappy/index.html">Flappy Birds</a> game, but this is something I intend to come
+                    back to every now and then to brush up on both my Javascript and CSS skills.</p>
+                    <div class="life-boat">
+                        <div class="life">
+                            <button onmouseover="move()" id="life-btn">Click here for the meaning of life</button>
+                            <script>
+                                function move() {
+                                    const btn = document.querySelector('#life-btn');
+                                    btn.style.left = btn.style.left === "60%" ? '10%' : '60%';
+                                }
+                                </script>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <div class="intro">
+                <div>
+                    <a href="https://www.youtube.com/c/AniaKub&oacutew/" target="_blank"><img src="/Ania/images/ania.jpg" alt=""></a>
+                </div>
+                <div id="desc-text">
+                    <br>
+                    <p>Ania Kub&oacutew has a YouTube channel with lots of excellent Javascript tutorials presented in a fun way! Easy to follow along with lots of scope to expand the ideas. </p>
+                    <p>Thanks <a href="https://www.youtube.com/c/AniaKub%C3%B3w/" target="_blank">Ania</a> for some Javascript fun! </p>
+                </div>
+            </div>
+            <div class="links">
+                <div class="t2">
+                    <a href="/Ania/Flappy/index.html"><img src="/Ania/images/Flappy.png" alt=""></a>
+                    <p>Flappy Birds game with extra styling, score board, music and my own original bird!</p>
+                </div>
+                
+            </div>
+            <div class="links">
+                <div class="t3">
+                    <a href="/Ania/FlappyOriginal/"><img src="/Ania/images/Flappy.png" alt=""></a>
+                    <p>Original Flappy Bird game from Ania without any formatting.</p>
+                </div>
+                <div class="t3">
+                    <a href="/Ania/Doodle/index.html"><img src="/Ania/images/Doodle.png" alt=""></a>
+                    <p>Original Doodle Jump game, no formatting yet, just the coloured divs.</p>
+                </div>
+                <div class="t3">
+                    <a href="/Ania/2048/index.html"><img src="/Ania/images/2048.png" alt="2048.png" alt=""></a>
+                    <p>Original 2048 game, again will come back to the styling later!</p>
+                </div>
+            </div>
+            <hr>
+            <section>
+                <p>Just some boxes...</p>
+                <div class="star-container">
+                    <div class="body-container">
+                        <div class="fader-container">
+                            <div class="card">
+                                <div class="icon">
+                                    <img src="/images/flappy-head.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h3>Javascript 1</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci ullam accusamus nemo tempore officia consequatur ab omnis odio corrupti perspiciatis. Magni voluptatem eum reiciendis possimus, ab pariatur. Doloribus dolore, consequuntur maxime neque nam pariatur libero officia, earum quas modi sint voluptatum inventore! Inventore ut nobis repellendus consequuntur ad, laborum esse.</p>
+                                </div>
+                                <a class="more"></a>
+                            </div>
+                            <div class="card">
+                                <div class="icon">
+                                    <img src="/images/flappy-head.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h3>Javascript 2</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, odit voluptate cumque pariatur architecto mollitia, maiores quam fugiat repellat harum itaque. Adipisci eligendi praesentium eius quaerat unde assumenda quia similique! Nam, quas sequi, temporibus quaerat earum molestias, similique non architecto deleniti doloremque eum ipsum! Corporis dicta doloribus natus ab doloremque!</p>
+                                </div>
+                                <a class="more"></a>
+                            </div>
+                            <div class="card">
+                                <div class="icon">
+                                    <img src="/images/flappy-head.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h3>Javascript 3</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium alias asperiores, possimus voluptatem illum doloribus molestiae ratione minima accusamus at sed itaque blanditiis architecto! Quod et dolorum, mollitia odit non commodi ad perferendis? Quos, vel soluta maiores eveniet tempora ipsum incidunt, possimus repellat fugit, suscipit cum voluptatum! Distinctio consequuntur obcaecati debitis, sed magni eveniet fugiat esse temporibus nemo? Facilis, maxime iusto vero ullam sequi labore provident eius. Necessitatibus aut nulla quasi facilis vitae, veniam, magnam unde commodi temporibus cupiditate nobis?</p>
+                                </div>
+                                <a class="more"></a>
+                            </div>
+                        </div>
+                        <script>
+                            let more = document.querySelectorAll('.more');
+                            for (let i = 0; i<more.length; i++) {
+                                more[i].addEventListener('click', function() {
+                                    more[i].parentNode.classList.toggle('active')
+                                })
+                            }
+                        </script>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+    <footer>
+
+        <p style="padding: 20px;">Copyright &copy; 2021 DarrenT</p>
+    </footer>
+</body>
+</html>

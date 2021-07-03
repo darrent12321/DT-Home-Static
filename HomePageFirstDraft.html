@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        a,p,h1,h2,h3,h4,h5,h6 {
+            color: rgb(87, 85, 85);
+        }
+        h1,h2,h3,h4,h5,h6 {
+            padding: 10px 20px 10px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            border-left: 1px solid rgb(87, 85, 85);
+            border-right: 1px solid rgb(87, 85, 85);
+        }
+        header {
+            background-color: rgb(87, 85, 85);
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        header nav a {
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        header nav a:hover, footer a:hover {
+            color: cyan;
+        }
+        section {
+            padding: 20px;
+        }
+        intro {
+            padding: 20px;
+        }
+        main {
+            float: left;
+            width: 70%;
+        }
+        main p, intro p {
+            font-size: 1rem;
+            line-height: 1.6rem;
+            padding: 0px 20px 0px 20px;
+        }
+        aside {
+            float: right;
+            width: 25%;
+        }
+        aside p {
+            font-size: 1rem;
+            line-height: 1.6rem;
+            padding: 0px 20px 0px 20px;
+        }
+        aside ul {
+            padding: 0px 20px 0px 20px;
+        }
+        aside ul li {
+            font-size: 1rem;
+            line-height: 1.6rem;
+            list-style: none;
+        }
+        footer {
+            background-color: rgb(87, 85, 85);
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+        footer a {
+            padding: 0px 1px 0px 1px;
+        }
+        footer a, footer p, footer ul, footer li {
+            color: white;
+        }
+        @media (max-width: 700px) {
+            main, aside {
+                float: none;
+                width: 100%;
+            }
+            aside {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="about.html">CONTACT</a>
+            </nav>
+        </header>
+        
+        <intro>
+            <h2>First steps to web development...</h2>
+            <p>I am learning some web development technologies and thought it a good idea to share some of my journey. Starting with this basic blog I will be running through different lessons from various sources and as I build on my knowledge I build up my portfolio.</p>
+            <p>This blog doesn't reflect everything I have learned as many lessons do not end up with any sort of artifact that can be presented here, CodingGame.com being a prime example.</p>
+            <p>Sources will include YouTube, books and various websites. If I can remember I will give credit where credit is due.</p>
+            <p>A big thank you to all those that put their own time in to create lessons and other content for everyone. It's very much appreciated.</p>
+            <p>Please bear in mind that some of the examples will be half baked rubbish, but as long as I learn a lesson at least I will be happy!</p>
+        </intro>
+        <hr>
+        <main>
+            <section>
+                <h3>Blog Post #3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam vitae dolores, possimus, temporibus hic incidunt molestiae iusto expedita et nam repellat, blanditiis exercitationem nisi dolor vel dolorum id doloribus veniam?</p>
+            </section>
+            <hr>
+            <section>
+                <h3>Blog Post #2</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae magni assumenda temporibus provident consectetur aliquid deleniti iusto dignissimos qui totam ipsum placeat ex similique, nihil necessitatibus, enim sit laborum! Quam!</p>
+            </section>
+            <hr>
+            <section>
+                <h3>Blog Post #1 - Basic Home Page First Draft!</h3>
+                <p>So! My first ever blog post!</p>
+                <p>This blog post doesn't really need to say much as it is best explained by this actual page itself. Thanks to Timothy Unkert for the YouTube lesson <a href="https://youtu.be/YCaUBFZw_uo">Building a blog in html and css</a>. Thanks also for opening my eyes to Visual Studio Code and Emmet!</p>
+                <p>I wanted to start with some basic html and css. No frills, just basic stuff so I can understand whats going on. I'm going to build on this in later lessons, so this initial page will be pretty dull! </p>
+                <p>If you are visiting this page from the future, the original draft #1 can actually be found <a href="#">here</a>!</p>    
+                
+            </section>
+        </main>
+        <aside>
+            <h3>About</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi eius est ratione veniam minima saepe totam, sit eaque laborum tenetur?</p>
+            <hr>
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">Blog Post #5</a></li>
+                <li><a href="#">Blog Post #4</a></li>
+                <li><a href="#">Blog Post #3</a></li>
+                <li><a href="#">Blog Post #2</a></li>
+                <li><a href="#">Blog Post #1</a></li>
+            </ul>
+        </aside>
+        <footer>
+            <section>
+                <a href="page-2.html">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a>
+            </section>
+            <p style="padding: 20px;">Copyright &copy; 2021 DarrenT</p>
+        </footer>
+    </div>
+</body>
+</html>
