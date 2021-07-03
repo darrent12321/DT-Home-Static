@@ -43,7 +43,7 @@ section, aside{
 }
 
 .intro {
-    background-image: url(/images/dtban1024.png);
+    background-image: url(./images/dtban1024.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -150,7 +150,7 @@ about{
         padding: 20px;
     }
     .intro {
-        background-image: url("/images/dtban768.png");
+        background-image: url("./images/dtban768.png");
     }
     .introText {
         margin: 0;
@@ -162,7 +162,7 @@ about{
 }
 @media (max-width: 400px) {
     .intro {
-        background-image: url("/images/dtban400.png");
+        background-image: url("./images/dtban400.png");
     }
 }
 
