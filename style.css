@@ -45,9 +45,10 @@ section, aside{
 .intro {
     background-image: url(./images/dtban1500.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     height: 500px;
     position: relative;
+    background-position: center;
 }
 
 .intro-text h2, .intro-text p {
@@ -152,17 +153,20 @@ about{
     .intro {
         background-image: url("./images/dtban768.png");
     }
-    .introText {
+    .intro-text {
         margin: 0;
         padding: 0px 20px 0px 20px;
     }
-    .introText p {
+    .intro-text p {
         color: rgb(87, 85, 85);
     }
 }
 @media (max-width: 400px) {
     .intro {
         background-image: url("./images/dtban400.png");
+    }
+    .intro-text {
+        width: 80%;
     }
 }
 
